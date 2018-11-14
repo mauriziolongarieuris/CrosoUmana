@@ -25,6 +25,8 @@ public class Biblioteca{
 	public static void main(String args[]){
 		
 		UtentiService utentiService = new UtentiService();
+		
+		//test modifica per git
 		utenti = utentiService.caricaUtenti();
         
         //Leggo la distinta degli articoli e creo l'array delle giacenze
