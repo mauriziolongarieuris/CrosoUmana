@@ -27,6 +27,7 @@ public class Biblioteca{
 		UtentiService utentiService = new UtentiService();
 		
 		//test modifica per git
+		// modifiche fatte sul branch testing
 		utenti = utentiService.caricaUtenti();
         
         //Leggo la distinta degli articoli e creo l'array delle giacenze
